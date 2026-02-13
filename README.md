@@ -47,7 +47,7 @@
 
 <div align="center">
 
-<img src="https://mermaid.ink/svg/pako:eNqNkk1Lw0AQhv_KsiceWkhqP1oIeBDxVhB6EfEyhG6ybdZkN2F2a1HKf3e3prYeRDzNss87884OewWZkQwJM-NrIWz4etUuYg9Os0_h9E18mhX8qE9KqMqCtJf7bRzHqD-j6WmGrsurWNXZCWZblXuOZ6hWvHFmDqIorCilfA2vZq7Yg1bbL7aFWhuNb5UOXoQrbLRBV33dGWmE2jnhL4TpEBf84Nu5G7p2Tw0qNx5Ojx6jO3S5A7xQ-dsACQdpNRyTU6LWBkMhoYZOOmNdgLGmH8zzSxQH-Oygt5IqWcOPj0K1kDnJYOlPQgJq22lvkX0oA_3_PfEofzz1l7I-aHk7nC55Mbi_bbueGxOcK_u4wvQJhSPyHm4OTw-OI20NlJIEJVI1J2NV2hst_LLopNAFy5usBpW8TjLgXqGkHof68w6Bv-VzC5-kNUop3UprA2mWZ1nefAMp0MCN" alt="Features Mindmap" width="800px"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" width="100%"/></div>
 
 </div>
 
@@ -238,8 +238,6 @@ If you like this portfolio, please consider giving it a ⭐ on GitHub!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Feeza_Kulsoom-eb1644?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/feezakulsoom)
 
 ---
-<div>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" width="100%"/>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" width="100%"/></div>
 
-</div>
