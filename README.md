@@ -239,5 +239,5 @@ If you like this portfolio, please consider giving it a ⭐ on GitHub!
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" width="100%"/></div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c3ff,100:7ad7ea&height=150&section=footer" width="100%"/></div>
 
