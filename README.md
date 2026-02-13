@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=FEEZA%20KULSOOM&fontSize=60&fontColor=ffffff&animation=twinkling&desc=Frontend%20Developer%20Portfolio&descSize=20&descAlignY=55)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=MY%20PORTFOLIO&fontSize=60&fontColor=ffffff&animation=twinkling&desc=Welcome%20to%20my%20creative%20space&descSize=20&descAlignY=55)
 
 <p align="center">
   <a href="#-features"><img src="https://img.shields.io/badge/Features-8A2BE2?style=for-the-badge&logo=starship&logoColor=white"/></a> •
@@ -268,7 +268,7 @@ If you like this portfolio, please consider giving it a ⭐ on GitHub!
 
 [![Email](https://img.shields.io/badge/Email-feezakulsoom42@gmail.com-00c3ff?style=for-the-badge&logo=gmail)](mailto:feezakulsoom42@gmail.com)
 [![GitHub](https://img.shields.io/badge/Github-feezakulsoom-7ad7ea?style=for-the-badge&logo=github)](https://github.com/FEEZAKULSOOM)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Feeza_Kulsoom-eb1644?style=for-the-badge&logo=linkedin)]([https://linkedin.com/in/feezakulsoom](https://linkedin.com/in/feezakulsoom))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Feeza_Kulsoom-eb1644?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/feezakulsoom)
 
 ---
 
