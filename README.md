@@ -18,7 +18,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00c3ff&center=true&vCenter=true&width=600&lines=A+modern%2C+responsive+portfolio+website;Built+with+React+%26+GSAP;Showcasing+projects+%26+skills;4.00+CGPA+Software+Engineering+Student" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00c3ff&center=true&vCenter=true&width=600&lines=A+modern%2C+responsive+portfolio+website;Built+with+React+%26+GSAP;Showcasing+projects+%26+skills;Software+Engineering+Student" alt="Typing SVG" />
 </p>
 
 </div>
