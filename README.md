@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="#-features"><img src="https://img.shields.io/badge/Features-8A2BE2?style=for-the-badge&logo=starship&logoColor=white"/></a> •
-  <a href="#-live-demo"><img src="https://img.shields.io/badge/Live_Demo-00c3ff?style=for-the-badge&logo=vercel&logoColor=white"/></a> •
+  <a href="#-live-demo"><img src="https://img.shields.io/badge/Live_Demo-00c3ff?style=for-the-badge&logo=vercel&logoColor=white"/></a> 
 </p>
 
 
@@ -47,7 +47,7 @@
 
 <div align="center">
 
-<img src="src/assets/features.webp" width="100%"/></div>
+<img src="src/assets/features.webp" width="100%"/>
 
 </div>
 
