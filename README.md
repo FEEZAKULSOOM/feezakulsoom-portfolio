@@ -266,7 +266,7 @@ If you like this portfolio, please consider giving it a ⭐ on GitHub!
 
 ### 📬 **Contact Me**
 
-[![Email](https://img.shields.io/badge/Email-feeza%40example.com-00c3ff?style=for-the-badge&logo=gmail)](mailto:feezakulsoom42@gmail.com)
+[![Email](https://img.shields.io/badge/Email-feezakulsoom42@gmail.com-00c3ff?style=for-the-badge&logo=gmail)](mailto:feezakulsoom42@gmail.com)
 [![GitHub](https://img.shields.io/badge/Github-feezakulsoom-7ad7ea?style=for-the-badge&logo=github)](https://github.com/FEEZAKULSOOM)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Feeza_Kulsoom-eb1644?style=for-the-badge&logo=linkedin)]([https://linkedin.com/in/feezakulsoom](https://www.linkedin.com/in/feeza-kulsoom-82a801313))
 
@@ -274,6 +274,5 @@ If you like this portfolio, please consider giving it a ⭐ on GitHub!
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" width="100%"/>
 
-**Made with 💙 by Feeza Kulsoom**
 
 </div>
