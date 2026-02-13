@@ -1,8 +1,9 @@
 
 
 <div align="center">
+  
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Portfolio%20Website&fontSize=50&fontColor=ffffff&animation=twinkling)
 
-![Banner](![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=PORTFOLIO%20WEBSITE&fontSize=60&fontColor=ffffff&animation=twinkling&desc=%20%20&descSize=20&descAlignY=55))
 
 <p align="center">
   <a href="#-features"><img src="https://img.shields.io/badge/Features-8A2BE2?style=for-the-badge&logo=starship&logoColor=white"/></a> •
