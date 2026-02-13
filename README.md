@@ -102,7 +102,7 @@ mindmap
 [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://feeza-portfolio.vercel.app)
 [![Netlify](https://img.shields.io/badge/Alternative-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://feeza-portfolio.netlify.app)
 
-**👉 [https://feeza-portfolio.vercel.app](https://feeza-portfolio.vercel.app)**
+**👉 [https://feeza-portfolio.vercel.app](https://feezakulsoom.github.io/feezakulsoom-portfolio/)**
 
 </div>
 
@@ -381,9 +381,9 @@ If you like this portfolio, please consider giving it a ⭐ on GitHub!
 
 ### 📬 **Contact Me**
 
-[![Email](https://img.shields.io/badge/Email-feeza%40example.com-00c3ff?style=for-the-badge&logo=gmail)](mailto:feeza@example.com)
-[![GitHub](https://img.shields.io/badge/Github-feezakulsoom-7ad7ea?style=for-the-badge&logo=github)](https://github.com/feezakulsoom)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Feeza_Kulsoom-eb1644?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/feezakulsoom)
+[![Email](https://img.shields.io/badge/Email-feeza%40example.com-00c3ff?style=for-the-badge&logo=gmail)](mailto:feezakulsoom42@gmail.com)
+[![GitHub](https://img.shields.io/badge/Github-feezakulsoom-7ad7ea?style=for-the-badge&logo=github)](https://github.com/FEEZAKULSOOM)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Feeza_Kulsoom-eb1644?style=for-the-badge&logo=linkedin)]([https://linkedin.com/in/feezakulsoom](https://www.linkedin.com/in/feeza-kulsoom-82a801313))
 
 ---
 
