@@ -107,7 +107,7 @@ mindmap
 <div align="center">
 
 ### 🏠 Home Section
-<img src="https://via.placeholder.com/800x400/111417/00c3ff?text=Home+Section+Preview" alt="Home Section" width="800px"/>
+<img src="home.png" alt="Home Section" width="800px"/>
 
 
 
@@ -253,8 +253,6 @@ REACT_APP_FORMSPREE_ENDPOINT=your_formspree_endpoint
 
 MIT License © 2026 **Feeza Kulsoom**
 
-
----
 
 ### 🌟 **Show your support**
 
