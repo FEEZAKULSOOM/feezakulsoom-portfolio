@@ -7,8 +7,7 @@
 <p align="center">
   <a href="#-features"><img src="https://img.shields.io/badge/Features-8A2BE2?style=for-the-badge&logo=starship&logoColor=white"/></a> •
   <a href="#-live-demo"><img src="https://img.shields.io/badge/Live_Demo-00c3ff?style=for-the-badge&logo=vercel&logoColor=white"/></a> •
-  <a href="#-screenshots"><img src="https://img.shields.io/badge/Screenshots-eb1644?style=for-the-badge&logo=camera&logoColor=white"/></a> •
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick_Start-7ad7ea?style=for-the-badge&logo=githubcodespaces&logoColor=black"/></a>
+  <a href="#-screenshots"><img src="https://img.shields.io/badge/Screenshots-eb1644?style=for-the-badge&logo=camera&logoColor=white"/></a> 
 </p>
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-00c3ff?style=flat-square)](LICENSE)
