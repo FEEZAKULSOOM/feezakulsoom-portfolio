@@ -1,7 +1,7 @@
 {
   "name": "portfolio-project",
   "private": true,
-  "homepage": "https://FEEZAKULSOOM.github.io/react-portfolio-project",
+  "homepage": "https://FEEZAKULSOOM.github.io/feezakulsoom-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
