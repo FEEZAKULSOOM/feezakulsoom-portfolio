@@ -10,7 +10,7 @@
   <a href="#-screenshots"><img src="https://img.shields.io/badge/Screenshots-eb1644?style=for-the-badge&logo=camera&logoColor=white"/></a> 
 </p>
 
-[![GitHub license](https://img.shields.io/badge/License-MIT-00c3ff?style=flat-square)](LICENSE)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-7ad7ea?style=flat-square&logo=react)](https://feeza-portfolio.vercel.app)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 [![GSAP](https://img.shields.io/badge/Animations-GSAP-88CE02?style=flat-square&logo=greensock)](https://greensock.com/gsap/)
