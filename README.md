@@ -116,14 +116,7 @@ mindmap
 ### 🏠 Home Section
 <img src="https://via.placeholder.com/800x400/111417/00c3ff?text=Home+Section+Preview" alt="Home Section" width="800px"/>
 
-### 👤 About Section
-<img src="https://via.placeholder.com/800x400/111417/7ad7ea?text=About+Section+Preview" alt="About Section" width="800px"/>
 
-### 💼 Projects Section
-<img src="https://via.placeholder.com/800x400/111417/eb1644?text=Projects+Section+Preview" alt="Projects Section" width="800px"/>
-
-### 📞 Contact Section
-<img src="https://via.placeholder.com/800x400/111417/00c3ff?text=Contact+Section+Preview" alt="Contact Section" width="800px"/>
 
 </div>
 
@@ -225,17 +218,7 @@ REACT_APP_FORMSPREE_ENDPOINT=your_formspree_endpoint
 | 🛠️ **Best Practices** | 100/100 | 🟢 Perfect |
 | 🔍 **SEO** | 100/100 | 🟢 Perfect |
 
-### 📈 **Optimization Targets**
 
-```mermaid
-graph LR
-    A[Current: 85] --> B[Target: 95+]
-    C[Current: 95] --> D[Target: 100]
-    E[Current: 100] --> F[Target: 100]
-    G[Current: 100] --> H[Target: 100]
-```
-
-</div>
 
 ---
 
@@ -282,80 +265,7 @@ graph LR
 └── 📄 .gitignore
 ```
 
----
 
-## 🎨 Customization
-
-### 🔧 **Update Personal Information**
-
-Edit `src/data.js`:
-
-```javascript
-export const personalInfo = {
-  name: "YOUR NAME",
-  age: "YOUR AGE",
-  gender: "YOUR GENDER",
-  languages: "YOUR LANGUAGES",
-  degree: "YOUR DEGREE",
-  branch: "YOUR BRANCH",
-  cgpa: "YOUR CGPA",
-  skills: "YOUR SKILLS"
-};
-```
-
-### 🖼️ **Replace Images**
-
-1. Add your images to `src/assets/`
-2. Update imports in components:
-```javascript
-import yourImage from '../../assets/your-image.png';
-```
-
-### 🎨 **Change Color Scheme**
-
-Edit `:root` variables in `src/App.css`:
-
-```css
-:root {
-  --primary: rgb(0, 195, 255);    /* Change this */
-  --secondary: #7ad7ea;            /* Change this */
-  --accent-red: rgb(235, 22, 68);  /* Change this */
-  --dark-bg: rgb(17, 20, 23);      /* Change this */
-}
-```
-
----
-
-## 🚀 Deployment
-
-### **Deploy to Vercel (Recommended)**
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### **Deploy to Netlify**
-
-```bash
-npm run build
-# Drag and drop 'build' folder to Netlify
-```
-
----
-
-## 📊 Performance Optimizations
-
-### ✅ **Implemented Optimizations**
-
-| Optimization | Status |
-|--------------|--------|
-| Image Compression | ✅ |
-| Lazy Loading | ✅ |
-| Code Splitting | ✅ |
-| Minified CSS/JS | ✅ |
-| Cache Control | ✅ |
-| Gzip Compression | ✅ |
 
 ---
 
@@ -363,9 +273,9 @@ npm run build
 
 <div align="center">
 
-Copyright © 2025 **Feeza Kulsoom**
+Copyright © 2026 **Feeza Kulsoom**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License -
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00c3ff.svg)](https://opensource.org/licenses/MIT)
 
@@ -376,7 +286,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you like this portfolio, please consider giving it a ⭐ on GitHub!
 
 [![GitHub stars](https://img.shields.io/github/stars/feezakulsoom/portfolio?style=social)](https://github.com/feezakulsoom/portfolio)
-[![Twitter Follow](https://img.shields.io/twitter/follow/feezakulsoom?style=social)](https://twitter.com/feezakulsoom)
+[![Twitter Follow](https://img.shields.io/twitter/follow/feezakulsoom?style=social)](https://x.com/MalikFeeza62772)
 
 ---
 
