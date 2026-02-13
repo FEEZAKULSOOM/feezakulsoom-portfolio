@@ -44,9 +44,8 @@
 
 ## ✨ Features
 
-<div align="center">
 
-```mermaid
+<div align="center">
 mindmap
   root((✨ FEEZA's PORTFOLIO))
     🎨 DESIGN
@@ -69,8 +68,6 @@ mindmap
       JavaScript ES6+
       CSS3 Modules
       Formspree Integration
-```
-
 </div>
 
 ### 🎯 **Core Highlights**
