@@ -47,7 +47,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" width="100%"/></div>
+<img src="src/assets/features.webp" width="100%"/></div>
 
 </div>
 
