@@ -85,8 +85,6 @@ mindmap
 | ⚡ **GSAP Animations** | Smooth scroll-triggered animations | ✅ |
 | ⌨️ **Typewriter Effect** | Dynamic text on homepage | ✅ |
 | 🃏 **Interactive Cards** | Hover effects with tooltips | ✅ |
-| 📊 **Skill Bars** | Expandable progress indicators | ✅ |
-| 📁 **GitHub Integration** | Live project links with repos | ✅ |
 | 📧 **Working Contact Form** | Formspree integration | ✅ |
 | 🍔 **Mobile Menu** | Animated hamburger menu | ✅ |
 | 🔍 **SEO Optimized** | Meta tags for better visibility | ✅ |
@@ -99,9 +97,6 @@ mindmap
 
 ### 🌐 **Experience the portfolio live**
 
-
-[![GitHub](https://img.shields.io/badge/View_on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/feezakulsoom/portfolio)
-[![GitHub Pages](https://img.shields.io/badge/Live_Demo-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://feezakulsoom.github.io/portfolio)
 
 **👉 [https://feezakulsoom.github.io/feezakulsoom-portfolio](https://feezakulsoom.github.io/feezakulsoom-portfolio/)**
 
@@ -161,8 +156,8 @@ mindmap
 | 🧭 **Navigation** | React Scroll, React Router |
 | 📧 **Contact Form** | Formspree API |
 | 🎨 **Icons & Assets** | Custom PNG assets |
-| 🚀 **Deployment** | Vercel, Netlify |
-| 📊 **Performance** | Lighthouse, GTmetrix |
+| 🚀 **Deployment** | Github |
+| 📊 **Performance** | Lighthouse |
 
 </div>
 
@@ -205,22 +200,7 @@ REACT_APP_FORMSPREE_ENDPOINT=your_formspree_endpoint
 
 ---
 
-## 🎯 Lighthouse Scores
 
-<div align="center">
-
-### 📊 **Current Performance Metrics**
-
-| Category | Score | Status |
-|----------|-------|--------|
-| ⚡ **Performance** | 85/100 | 🟡 Good |
-| ♿ **Accessibility** | 95/100 | 🟢 Excellent |
-| 🛠️ **Best Practices** | 100/100 | 🟢 Perfect |
-| 🔍 **SEO** | 100/100 | 🟢 Perfect |
-
-
-
----
 
 ## 📁 Project Structure
 
@@ -275,9 +255,6 @@ REACT_APP_FORMSPREE_ENDPOINT=your_formspree_endpoint
 
 Copyright © 2026 **Feeza Kulsoom**
 
-This project is licensed under the MIT License -
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-00c3ff.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
