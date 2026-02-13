@@ -35,9 +35,7 @@
 | [📸 Screenshots](#-screenshots) | Visual preview |
 | [⚙️ Tech Stack](#️-tech-stack) | Technologies used |
 | [📦 Installation](#-installation) | Setup guide |
-| [🎯 Lighthouse Scores](#-lighthouse-scores) | Performance metrics |
 | [📁 Project Structure](#-project-structure) | File organization |
-| [🎨 Customization](#-customization) | Make it yours |
 | [📄 License](#-license) | MIT License |
 
 </div>
@@ -252,7 +250,7 @@ REACT_APP_FORMSPREE_ENDPOINT=your_formspree_endpoint
 
 <div align="center">
 
-Copyright © 2026 **Feeza Kulsoom**
+MIT License © 2026 **Feeza Kulsoom**
 
 
 ---
