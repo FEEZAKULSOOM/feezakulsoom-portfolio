@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=MY%20PORTFOLIO&fontSize=60&fontColor=ffffff&animation=twinkling&desc=Welcome%20to%20my%20creative%20space&descSize=20&descAlignY=55)
+![Banner](![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=PORTFOLIO%20WEBSITE&fontSize=60&fontColor=ffffff&animation=twinkling&desc=%20%20&descSize=20&descAlignY=55))
 
 <p align="center">
   <a href="#-features"><img src="https://img.shields.io/badge/Features-8A2BE2?style=for-the-badge&logo=starship&logoColor=white"/></a> •
