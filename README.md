@@ -99,10 +99,11 @@ mindmap
 
 ### 🌐 **Experience the portfolio live**
 
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://feeza-portfolio.vercel.app)
-[![Netlify](https://img.shields.io/badge/Alternative-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://feeza-portfolio.netlify.app)
 
-**👉 [https://feeza-portfolio.vercel.app](https://feezakulsoom.github.io/feezakulsoom-portfolio/)**
+[![GitHub](https://img.shields.io/badge/View_on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/feezakulsoom/portfolio)
+[![GitHub Pages](https://img.shields.io/badge/Live_Demo-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://feezakulsoom.github.io/portfolio)
+
+**👉 [https://feezakulsoom.github.io/feezakulsoom-portfolio](https://feezakulsoom.github.io/feezakulsoom-portfolio/)**
 
 </div>
 
