@@ -1,12 +1,297 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==========================================
+   GLOBAL RESETS
+   Removes default browser margins/padding and sets box-sizing
+   ========================================== */
 * {
-     margin:0px;
-     padding:0px;
-     box-sizing:border-box;
-     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+/* ==========================================
+   BASE BACKGROUND - VS CODE INSPIRED
+   Creates a developer-themed background with IDE lines and subtle glowing orbs
+   ========================================== */
 body {
-        background-color: rgb(17,20,23);
-     
+    background: #0a0c0f;
+    background-image:
+        /* Main IDE lines - horizontal ruler effect */
+        repeating-linear-gradient(0deg,
+            rgba(0, 195, 255, 0.08) 0px,
+            rgba(0, 195, 255, 0.08) 1px,
+            transparent 1px,
+            transparent 28px),
+
+        /* Glowing orbs - colored light sources at different positions */
+        radial-gradient(circle at 20% 30%, rgba(0, 195, 255, 0.03) 0%, transparent 30%),
+        radial-gradient(circle at 80% 70%, rgba(167, 13, 36, 0.03) 0%, transparent 35%),
+        radial-gradient(circle at 40% 20%, rgba(122, 215, 234, 0.03) 0%, transparent 40%);
+
+    background-size: 100% 28px, 100% 100%, 100% 100%, 100% 100%;
+    background-attachment: fixed;      /* Lines stay fixed while scrolling */
+    position: relative;
+    color: #ffffff;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* ==========================================
+   SCANNING LIGHT EFFECT
+   Creates a moving light bar that slowly scans down the page
+   ========================================== */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            transparent 0%,
+            rgba(0, 195, 255, 0.02) 50%,
+            transparent 100%);
+    animation: scan 15s linear infinite;
+    pointer-events: none;      /* Allows clicking through the effect */
+    z-index: 1;
+}
+
+@keyframes scan {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(200%);
+    }
+}
+
+/* ==========================================
+   VERTICAL GRADIENT LINE
+   Fixed line on the left side with gradient colors - mimics VS Code
+   ========================================== */
+.vertical-line {
+    position: fixed;
+    left: 50px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom,
+            rgba(0, 195, 255, 0.4),
+            rgba(167, 13, 36, 0.4),
+            rgba(122, 215, 234, 0.4));
+    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(0, 195, 255, 0.5);
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* ==========================================
+   LINE NUMBERS - DESKTOP
+   Fixed line numbers that match background line spacing
+   Creates authentic code editor feel
+   ========================================== */
+.line-numbers {
+    position: fixed;
+    left: 15px;
+    top: 0;
+    color: rgba(0, 195, 255, 0.4);
+    font-family: 'Space Grotesk', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;           /* Matches background line spacing */
+    white-space: pre;
+    pointer-events: none;
+    z-index: 3;
+    text-shadow: 0 0 5px rgba(0, 195, 255, 0.3);
+    display: block;
+}
+
+/* Generate line numbers 01-35 using pseudo-element */
+.line-numbers::before {
+    content: '01\A 02\A 03\A 04\A 05\A 06\A 07\A 08\A 09\A 10\A 11\A 12\A 13\A 14\A 15\A 16\A 17\A 18\A 19\A 20\A 21\A 22\A 23\A 24\A 25\A 26\A 27\A 28\A 29\A 30\A 31\A 32\A 33\A 34\A 35';
+}
+
+/* ==========================================
+   CUSTOM SCROLLBAR
+   Themed scrollbar using portfolio's blue/red color scheme
+   ========================================== */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #0a0c0f;         /* Matches page background */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(10, 12, 15, 0.9);
+    border-left: 1px solid rgba(0, 195, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg,
+            rgba(0, 195, 255, 0.8) 0%,
+            rgba(167, 13, 36, 0.8) 50%,
+            rgba(192, 18, 64, 0.8) 100%);
+    border-radius: 10px;
+    border: 2px solid #0a0c0f;    /* Creates gap effect */
+    box-shadow: 0 0 15px rgba(0, 195, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg,
+            rgba(0, 195, 255, 1) 0%,
+            rgba(167, 13, 36, 1) 50%,
+            rgba(122, 215, 234, 1) 100%);
+    box-shadow: 0 0 20px rgba(0, 195, 255, 0.8);
+}
+
+::-webkit-scrollbar-corner {
+    background: #0a0c0f;
+}
+
+/* Firefox scrollbar styling */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 195, 255, 0.8) #0a0c0f;
+}
+
+/* ==========================================
+   FLOATING CODE SNIPPET
+   Decorative code in bottom-right corner - adds developer aesthetic
+   ========================================== */
+.floating-code {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: rgba(0, 195, 255, 0.15);
+    font-family: 'Space Grotesk', monospace;
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: right;
+    pointer-events: none;
+    z-index: 3;
+    animation: breathe 8s ease infinite;
+    white-space: pre;
+    text-shadow: 0 0 8px rgba(0, 195, 255, 0.2);
+}
+
+/* Fake code content - personal signature */
+.floating-code::before {
+    content: '// built with passion\A \A function create() {\A   return "extraordinary";\A }\A \A <FeezaKulsoom />\A \A ✨ 2026 ✨';
+}
+
+/* Subtle fade animation */
+@keyframes breathe {
+
+    0%,
+    100% {
+        opacity: 0.15;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - TABLETS (751px - 1024px)
+   ========================================== */
+@media (max-width: 1024px) and (min-width: 751px) {
+
+    /* Fewer line numbers for tablet */
+    .line-numbers::before {
+        content: '01\A 02\A 03\A 04\A 05\A 06\A 07\A 08\A 09\A 10\A 11\A 12\A 13\A 14\A 15\A 16\A 17\A 18\A 19\A 20\A 21\A 22\A 23\A 24\A 25';
+    }
+
+    /* Adjust positioning for smaller screens */
+    .line-numbers {
+        left: 12px;
+        font-size: 12px;
+        line-height: 26px;
+    }
+
+    .vertical-line {
+        left: 40px;
+    }
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - MOBILE (up to 750px)
+   ========================================== */
+@media (max-width: 750px) {
+
+    /* Hide desktop line numbers on mobile */
+    .line-numbers {
+        display: none;
+    }
+
+    /* Show mobile-specific line numbers */
+    .mobile-line-numbers {
+        position: fixed;
+        left: 5px;
+        top: 0;
+        color: rgba(0, 195, 255, 0.3);
+        font-family: 'Space Grotesk', monospace;
+        font-size: 10px;
+        line-height: 24px;
+        white-space: pre;
+        pointer-events: none;
+        z-index: 3;
+        display: block;
+    }
+
+    /* Fewer line numbers for mobile */
+    .mobile-line-numbers::before {
+        content: '01\A 02\A 03\A 04\A 05\A 06\A 07\A 08\A 09\A 10\A 11\A 12\A 13\A 14\A 15';
+    }
+
+    /* Thinner vertical line for mobile */
+    .vertical-line {
+        left: 20px;
+        width: 2px;
+        background: linear-gradient(to bottom,
+                rgba(0, 195, 255, 0.3),
+                rgba(167, 13, 36, 0.3),
+                rgba(122, 215, 234, 0.3));
+    }
+
+    /* Hide floating code on mobile to save space */
+    .floating-code {
+        display: none;
+    }
+
+    /* Adjust background line spacing for mobile */
+    body {
+        background-image: repeating-linear-gradient(0deg,
+                rgba(0, 195, 255, 0.06) 0px,
+                rgba(0, 195, 255, 0.06) 1px,
+                transparent 1px,
+                transparent 24px);
+        background-size: 100% 24px;
+    }
+
+    /* Smaller scrollbar on mobile */
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - SMALL MOBILE (up to 480px)
+   ========================================== */
+@media (max-width: 480px) {
+
+    /* Even fewer line numbers for very small screens */
+    .mobile-line-numbers::before {
+        content: '01\A 02\A 03\A 04\A 05\A 06\A 07\A 08\A 09\A 10';
+    }
+
+    /* Adjust vertical line position */
+    .vertical-line {
+        left: 15px;
+    }
 }

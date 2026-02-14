@@ -1,84 +1,118 @@
+/* ==========================================
+   ABOUT SECTION - Two-column layout with timeline
+   Displays personal information, education, and skills
+   ========================================== */
+
+/* Main about section container */
 #about {
-     width: 100%;
+    width: 100%;
     height: 100%;
-     display:flex;
-     overflow:hidden;
-
-  
+    display: flex;
+    overflow: hidden;
 }
 
+/* ==========================================
+   LEFT COLUMN - Timeline and information
+   Contains visual timeline and personal details
+   ========================================== */
 .leftAbout {
-      width:50%;
-      height:100vh;
-      display:flex;
-      align-items: center;
-      justify-content: center;
-      gap:40px;
-
+    width: 50%;
+    height: 100vh;
+    margin-left: 60px;        /* Offset for VS Code line numbers */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    z-index: 5;               /* Ensure content appears above background */
 }
+
+/* Vertical timeline container with circles and lines */
 .circle-line {
-      display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+/* Timeline circles with glow effect */
 .circle {
-     width:60px;
-     height:60px;
-     border-radius: 50%;
-     background-color:#7ad7ea;
-     box-shadow: 2px 2px 17px #7ad7ea;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #7ad7ea;
+    box-shadow: 2px 2px 17px #7ad7ea;
 }
 
+/* Connecting lines between timeline circles */
 .line {
-          width:2px;
-          height:120px;
-          background-color: aliceblue;
-
+    width: 2px;
+    height: 120px;
+    background-color: aliceblue;
 }
+
+/* Information container for personal details */
 .aboutDetails {
-     display:flex;
-     flex-direction: column;
-     gap: 40px;
-     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
 }
 
+/* Remove default list styling */
 .aboutDetails ul {
-     list-style:none;
-
+    list-style: none;
 }
+
+/* Section headings with red-to-white gradient */
 .aboutDetails h1 {
-        background :linear-gradient(to right , rgb(167, 13, 36) , white);
-      background-clip:text;
-color:transparent;
-}
-.aboutDetails ul li {
-      color:white
-}
-.aboutDetails ul li span{
-          color:#7ad7ea;
-}
-.rightAbout {
-      width:50%;
-      height:100vh;
-      display:flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction:column;
-      gap:30px;
+    background: linear-gradient(to right, rgb(167, 13, 36), white);
+    background-clip: text;
+    color: transparent;
 }
 
+/* List items in white for contrast against dark background */
+.aboutDetails ul li {
+    color: white;
+}
+
+/* Highlighted spans within list items (labels) */
+.aboutDetails ul li span {
+    color: #7ad7ea;
+}
+
+/* ==========================================
+   RIGHT COLUMN - Skill cards
+   Displays technology stack cards
+   ========================================== */
+.rightAbout {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - Mobile
+   Stack columns vertically on smaller screens
+   ========================================== */
 @media screen and (max-width: 750px) {
-     #about {
-          flex-direction: column;
-     }
-     .leftAbout {
-          width:100%;
-          padding:10%;
-        
-     }
-   .rightAbout {
-          width:100%;
-        
-     }
+    /* Stack columns vertically */
+    #about {
+        flex-direction: column;
+    }
+    
+    /* Left column full width */
+    .leftAbout {
+        width: 100%;
+        padding: 10%;
+        margin-left: 0px;      /* Remove offset on mobile */
+    }
+    
+    /* Right column full width */
+    .rightAbout {
+        width: 100%;
+    }
 }

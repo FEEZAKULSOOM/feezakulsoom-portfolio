@@ -1,55 +1,69 @@
+/* ==========================================
+   CARD COMPONENT STYLES
+   Reusable card for projects and skills with hover overlay effect
+   ========================================== */
+
+/* Main card container */
 .card {
-        width:90%;
-        max-width: 400px;
-        height: 150px;
-        background-color: rgb(20, 26, 31);
-        position: relative;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        box-shadow: 2px 2px 10px black, 2px 2px 20px black;
-        border-radius: 10px;
-        transition: all 0.2s;
-        cursor: pointer;
-        flex-shrink: 0;
-        padding:10px;
+    width: 90%;
+    max-width: 400px;        /* Prevents cards from becoming too wide */
+    height: 150px;
+    background-color: rgb(20, 26, 31);
+    position: relative;      /* For absolute positioning of hover overlay */
+    overflow: hidden;        /* Ensures hover overlay stays within card bounds */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 10px black, 2px 2px 20px black;  /* Layered shadow for depth */
+    border-radius: 10px;
+    transition: all 0.2s;    /* Smooth hover transition */
+    cursor: pointer;
+    flex-shrink: 0;          /* Prevents cards from shrinking in flex containers */
+    padding: 10px;
 }
 
+/* Hover effect - cyan glow */
 .card:hover {
-        box-shadow: 2px 2px 10px rgb(30, 184, 208), 2px 2px 20px rgb(30, 184, 208);
-
+    box-shadow: 2px 2px 10px rgb(30, 184, 208), 2px 2px 20px rgb(30, 184, 208);
 }
 
+/* ==========================================
+   HOVER OVERLAY STYLES
+   Slides up from bottom on card hover
+   ========================================== */
+
+/* Image inside hover overlay */
 .hoverCard img {
-        height: 80%;
-        filter: drop-shadow(2px 2px 10px black);
-
+    height: 80%;
+    filter: drop-shadow(2px 2px 10px black);  /* Adds depth to images */
 }
 
+/* Overlay container - hidden by default (translated down) */
 .hoverCard {
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to top, rgba(88, 204, 227, 0.449), rgba(0, 0, 0, 0.358));
-        position: absolute;
-        bottom: 0;
-        transform: translateY(100%);
-        transition: all 0.5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        backdrop-filter: blur(7px);
-
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(88, 204, 227, 0.449), rgba(0, 0, 0, 0.358));
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);  /* Start hidden below the card */
+    transition: all 0.5s;         /* Smooth slide-up animation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(7px);   /* Glass morphism effect */
 }
 
+/* Reveal overlay on card hover */
 .card:hover .hoverCard {
-        transform: translateY(0);
-
+    transform: translateY(0);      /* Slide into view */
 }
 
+/* ==========================================
+   CARD TITLE STYLES
+   ========================================== */
 .card h1 {
-        background: linear-gradient(to right, rgb(0, 195, 255), white);
-        background-clip: text;
-        color: transparent;
+    background: linear-gradient(to right, rgb(0, 195, 255), white);
+    background-clip: text;
+    color: transparent;            /* Creates gradient text effect */
 }

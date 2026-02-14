@@ -1,43 +1,63 @@
+/* ==========================================
+   HOME / HERO SECTION
+   Main landing section with introduction and profile image
+   ========================================== */
+
+/* Main hero container - full viewport height */
 #home {
     width: 100%;
-    height: 100vh; /* Fixed height */
+    height: 100vh;          /* Fixed height for hero section */
     display: flex;
     overflow: hidden;
-    background-color: #0a0c0f; /* Darker background for contrast */
+    background-color: #0a0c0f;  /* Dark background for contrast */
 }
 
+/* ==========================================
+   LEFT COLUMN - Text Content
+   ========================================== */
 .leftHome {
     width: 50%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff; /* Pure white for better contrast */
+    color: #ffffff;          /* Pure white for readability */
+    padding: 0 60px;         /* Prevents text touching edges */
 }
 
+/* Text content container with max width control */
 .homeDetails {
     font-size: 2vmax;
+    max-width: 600px;        /* Prevents text from stretching too wide */
+    width: 100%;
+    padding: 0 15px;         /* Internal spacing */
 }
 
+/* "I'M" text styling */
 .line1 {
     font-size: 0.8em;
-    color: #e0e0e0; /* Light gray for better visibility */
+    color: #e0e0e0;          /* Light gray for subtle contrast */
 }
 
+/* Name with blue-to-white gradient */
 .line2 {
     font-size: 2.5em;
     background: linear-gradient(to right, #00c3ff, #ffffff);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
+    color: transparent;      /* Creates gradient text effect */
 }
 
+/* Typewriter container - cyan accent */
 .line3 {
     font-size: 1em;
-    color: #00c3ff; /* Cyan color for visibility */
-    min-height: 2em; /* Prevent layout shift */
+    color: #00c3ff;           /* Cyan for visibility */
+    min-height: 2em;          /* Prevents layout shift during typing */
 }
 
+/* ==========================================
+   CALL-TO-ACTION BUTTON
+   ========================================== */
 .homeDetails .btn {
     padding: 10px 20px;
     background-color: #00c3ff;
@@ -51,51 +71,106 @@
     cursor: pointer;
 }
 
+/* Button hover - becomes transparent with blue text */
 .homeDetails .btn:hover {
     background-color: transparent;
     color: #00c3ff;
 }
 
+/* Focus state for keyboard navigation accessibility */
 .homeDetails .btn:focus-visible {
     outline: 3px solid #ffffff;
     outline-offset: 2px;
 }
 
+/* ==========================================
+   RIGHT COLUMN - Profile Image
+   ========================================== */
 .rightHome {
     width: 50%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;          /* Prevents image touching edges */
 }
 
+/* Profile image with cyan glow effect */
 .rightHome img {
     width: 60%;
     filter: drop-shadow(2px 2px 20px rgba(0, 195, 255, 0.3));
-    object-fit: contain;
+    object-fit: contain;       /* Maintains aspect ratio */
 }
 
+/* ==========================================
+   MOBILE RESPONSIVE (up to 750px)
+   ========================================== */
 @media (max-width: 750px) {
+    /* Stack columns vertically on mobile */
     #home {
         flex-direction: column-reverse;
         height: auto;
         min-height: 100vh;
+        padding: 0;
     }
     
+    /* Left column full width */
     .leftHome {
         width: 100%;
-        height: 50vh;
-        min-height: 400px;
+        height: auto;
+        min-height: 50vh;
+        padding: 30px 20px !important;  /* Force padding on mobile */
+        margin: 0;
     }
     
+    /* Right column full width */
     .rightHome {
         width: 100%;
-        height: 50vh;
-        min-height: 300px;
-        align-items: flex-end;
+        height: auto;
+        min-height: 40vh;
+        padding: 20px !important;        /* Force padding on mobile */
+        align-items: center;
+    }
+    
+    /* Center text on mobile */
+    .homeDetails {
+        font-size: 2.5rem;
+        padding: 0 15px !important;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    /* Adjust name size for mobile */
+    .line2 {
+        font-size: 2.2rem;
+    }
+    
+    /* Smaller image on mobile */
+    .rightHome img {
+        width: 60%;
+        max-width: 280px;
+    }
+}
+
+/* ==========================================
+   EXTRA SMALL SCREENS (up to 480px)
+   ========================================== */
+@media (max-width: 480px) {
+    .leftHome {
+        padding: 20px 15px !important;
     }
     
     .homeDetails {
-        font-size: 3vmax;
+        padding: 0 10px !important;
+        font-size: 2rem;
+    }
+    
+    .line2 {
+        font-size: 1.8rem;
+    }
+    
+    .btn {
+        padding: 8px 18px;
+        font-size: 16px;
     }
 }

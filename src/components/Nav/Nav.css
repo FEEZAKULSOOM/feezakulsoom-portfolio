@@ -1,103 +1,137 @@
+/* ==========================================
+   NAVIGATION COMPONENT
+   Fixed header with desktop and mobile menus
+   ========================================== */
 
+/* Main navigation bar - fixed at top */
 nav {
-     display:flex;
-        justify-content: space-between;
-        align-items: center;
-        padding:20px;
-        width:100%;
-        height:80px;
-        position: fixed;
-        top:0;
-        z-index:20;
-           background-color: rgb(17,20,23);
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 20;              /* Stays above content */
+    background-color: rgb(17, 20, 23);
 }
+
+/* ==========================================
+   DESKTOP NAVIGATION LINKS
+   ========================================== */
 nav ul a {
-        cursor: pointer;
+    cursor: pointer;
 }
+
+/* Hover effect - blue text with white underline */
 nav ul a:hover {
-         color: rgb(0, 195, 255);
-        border-bottom: 2px solid white;
-
+    color: rgb(0, 195, 255);
+    border-bottom: 2px solid white;
 }
 
+/* Active link - indicates current section */
 .active {
-        color: rgb(0, 195, 255);
-        border-bottom: 2px solid white;
+    color: rgb(0, 195, 255);
+    border-bottom: 2px solid white;
 }
+
+/* Navigation list container */
 nav ul {
-        display:flex;
-           align-items: center;
-           justify-content: center;
-           gap:20px;
-           color:white;
-           list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    list-style: none;
 }
 
+/* Logo with blue-to-white gradient */
 nav h1 {
-        font-size:30px;
-      background :linear-gradient(to right , rgb(0, 195, 255) , white);
-      background-clip:text;
-color:transparent;
+    font-size: 30px;
+    background: linear-gradient(to right, rgb(0, 195, 255), white);
+    background-clip: text;
+    color: transparent;
 }
+
+/* ==========================================
+   HAMBURGER MENU (Mobile)
+   ========================================== */
 .hamburger {
-      display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap:8px;
-         display:none;
-        cursor: pointer;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    display: none;            /* Hidden on desktop */
+    cursor: pointer;
 }
+
+/* Hamburger icon lines */
 .ham {
-        width:40px;
-        height:2px;
-        background-color:aliceblue;
-              transition: all 0.5s ease-in-out;
+    width: 40px;
+    height: 2px;
+    background-color: aliceblue;
+    transition: all 0.5s ease-in-out;
 }
 
-.activeHam .ham:nth-child(1)  {
-        transform: rotate(45deg);
-        position: relative;
-        top:10px;
+/* Animation when hamburger is active (turns into X) */
+.activeHam .ham:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
 }
 
-.activeHam .ham:nth-child(2)  {
-        opacity: 0;
+.activeHam .ham:nth-child(2) {
+    opacity: 0;
 }
 
-.activeHam .ham:nth-child(3)  {
-        transform: rotate(-45deg) ;
-        position: relative;
-        top:-10px;
+.activeHam .ham:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -10px;
 }
 
+/* ==========================================
+   MOBILE MENU PANEL
+   Slides in from right when activated
+   ========================================== */
 .mobileMenu {
-        display: none;
-        position: absolute;
-        top:80px;
-        right:0;
-        background-color: rgb(17,20,23,0.476);
-        backdrop-filter: blur(8px);
-        width:100%;
-        height:100vh;
-        transform: translateX(100%);
-        flex-direction: column;
-        transition: all 0.5s ease-in-out;
-        gap: 50px;
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: rgba(17, 20, 23, 0.476);
+    backdrop-filter: blur(8px);      /* Glass morphism effect */
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);     /* Hidden off-screen by default */
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    gap: 50px;
 }
+
+/* Active state - slide into view */
 .activeMobile {
-          transform: translateX(0);
+    transform: translateX(0);
 }
+
+/* ==========================================
+   RESPONSIVE BREAKPOINT
+   ========================================== */
 @media (max-width: 750px) {
-        .hamburger {
-                display: flex;
-        }
-       .desktopMenu {
-                display: none;
-        }
-        .mobileMenu {
-                display: flex;
-        }
+    /* Show hamburger on mobile */
+    .hamburger {
+        display: flex;
+    }
+    
+    /* Hide desktop menu on mobile */
+    .desktopMenu {
+        display: none;
+    }
+    
+    /* Show mobile menu panel */
+    .mobileMenu {
+        display: flex;
+    }
 }
